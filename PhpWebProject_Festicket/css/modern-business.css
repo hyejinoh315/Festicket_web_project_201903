@@ -1,0 +1,99 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+*{margin: 0; padding: 0;}
+
+.container1 {
+  width: 300px;
+  margin: 50px auto;
+  border: 1px solid #ccc;
+}
+
+#signupInfo {
+  display: block;
+  background: #000000;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  height: 45px;
+  line-height: 40px;
+}
+
+.label1{
+  font-size: 13px;
+  margin: 10px 0;
+  padding: 0 10px;
+  color: #999;
+}
+
+.form1{
+  padding: 0 10px;
+}
+
+.form1 input{
+  width: 100%;
+  height: 35px;
+  padding: 0 15px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.form2{
+  padding: 0 10px;
+}
+
+.form2 input{
+  width: 80%;
+  height: 35px;
+  padding: 0 15px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+#signupButton {
+  margin-top: 20px;
+  display: block;
+  width: 100%;
+  height: 45px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#gototop {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  z-index: 9999;
+  background: url("icon.png");
+  background-size: contain;
+  text-indent: -9999em;
+  overflow: hidden;
+  bottom: 150px;
+  left: 50%;
+  margin-left: 600px;
+  cursor: pointer;
+}
